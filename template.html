@@ -1,0 +1,107 @@
+<head>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']]
+            },
+            SVG: {
+                font: "Latin-Modern"
+            },
+            messageStyle: "none"
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="template.css">
+    <!-- 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"> </script> 
+    -->
+    <script type="text/javascript" src="js/MathJax-2.7.2/MathJax.js?config=TeX-MML-AM_SVG"> </script> 
+
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="title">
+            Article Name
+        </div>
+        <div class="author">
+            Authors: rococo, rococo II, rococo III
+        </div>
+    </div>
+
+    <hr />
+    <!-- END HEADER -->
+
+    <div class="content">
+        Testing inline math equations like this one $\frac{\partial}{\partial x} x^2 + 2xy - z + \phi - 2\eta = 2x + 2 \neq 2x + 3$. Looks like it works?
+
+        Inline sum: $\sum\limits_{x} P(x \mid y)$
+
+        $$\textbf{P}(X \mid \textbf{e}) = \alpha \textbf{ P}(X, \textbf{e}) = \alpha \sum_\textbf{y} \textbf{P}(X, \textbf{e}, \textbf{y})$$
+
+        $$\text{And we can do text with a block equation: }\sum\limits_{x} P(x \mid y)$$
+
+        <em>Italics? Yup.</em>
+
+        <br/>
+
+        <strong>And BOLD!</strong>
+
+        <br/>
+
+        <em><strong>AND!!! BOLD ITALICS!!!</strong></em>
+
+        <div class="paragraph">
+        Lopsum dolor sit amet, consectetur adipiscing elit. Mauris sed risus in dolor bibendum convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce rutrum condimentum volutpat. Phasellus pellentesque placerat felis, ac blandit libero aliquet in. Cras aliquet tortor et enim posuere, ac iaculis augue finibus. Fusce non arcu ex. Integer blandit ut est et efficitur. Morbi dignissim sapien at nunc maximus, et blandit libero porttitor. Etiam scelerisque dolor sed congue viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere id orci vel feugiat. Nam lacinia metus at turpis consequat, ac convallis arcu ornare.
+        </div>
+
+        <div class="paragraph">
+        Peltesque iaculis, arcu non laoreet dapibus, mauris odio accumsan elit, ut consequat elit nisl dignissim purus. Proin maximus ligula lacus, at volutpat sem iaculis non. Duis sollicitudin mollis felis, in mattis nunc. Phasellus malesuada, est in euismod bibendum, erat dui molestie justo, in ornare turpis felis vitae ex. Integer id ultricies enim. In neque sapien, placerat nec nisl eu, scelerisque varius neque. Duis id lacus ut purus gravida pulvinar in id massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi eu est et quam euismod faucibus. Fusce eget orci lacinia, malesuada velit non, vulputate nulla. Mauris dictum ullamcorper ex, vel commodo nulla tempor ut. Praesent pellentesque libero viverra orci hendrerit tincidunt. Ut in lorem et purus tincidunt mollis. Mauris sed dolor est.
+        </div>
+
+        <div class="pagebreak">&nbsp;</div>
+
+        <div class="paragraph">
+        Second page. Peltesque iaculis, arcu non laoreet dapibus, mauris odio accumsan elit, ut consequat elit nisl dignissim purus. Proin maximus ligula lacus, at volutpat sem iaculis non. Duis sollicitudin mollis felis, in mattis nunc. Phasellus malesuada, est in euismod bibendum, erat dui molestie justo, in ornare turpis felis vitae ex. Integer id ultricies enim. In neque sapien, placerat nec nisl eu, scelerisque varius neque. Duis id lacus ut purus gravida pulvinar in id massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi eu est et quam euismod faucibus. Fusce eget orci lacinia, malesuada velit non, vulputate nulla. Mauris dictum ullamcorper ex, vel commodo nulla tempor ut. Praesent pellentesque libero viverra orci hendrerit tincidunt. Ut in lorem et purus tincidunt mollis. Mauris sed dolor est.
+        </div>
+
+        <div style="color: #af00ff; font-size: 1.5em; text-align: center; display: block; margin: 0 auto;">
+            To me, dealing with images in Latex was always a pain.
+            <br />
+            Since we're using HTML, images are easy! 
+            <br />
+            <span style="font-size: 0.7em;">(and tweaking fonts is easy too!)</span>
+        </div>
+
+        Centered:
+
+        <br />
+
+        <img style="margin: 20px auto 0; display: block;" src="https://dummyimage.com/300x100/000/fff"/>
+
+        <br />
+
+        In-line:
+
+        <br />
+
+        <img style="margin: 20px 0 0; display: inline-block;" src="https://dummyimage.com/200x120/000/efefef"/>
+        <img style="margin: 20px 0 0; display: inline-block;" src="https://dummyimage.com/200x120/000/efefef"/>
+
+        <br />
+
+        Centered in-line:
+
+        <br />
+
+        <div style="display:block;width:100%;margin:0 auto;text-align:center;">
+            <img style="margin: 20px 0 0; display: inline-block;" src="https://dummyimage.com/200x200/000/efefef"/>
+            <img style="margin: 20px 0 0; display: inline-block;" src="https://dummyimage.com/200x200/000/efefef"/>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+

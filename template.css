@@ -1,3 +1,41 @@
+@font-face {
+    font-family: "Latin Modern";
+    src: url('fonts/LatinModernMathJax_Main-Regular.otf');
+}
+
+body {
+    font-family: "Latin Modern", serif;
+    padding: 20px 30px;
+}
+
+hr {
+    margin: 15px 0;
+}
+
 .header {
-    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.header .title {
+    font-size: 36px;
+}
+
+.header .author {
+    font-size: 22px;
+}
+
+.content {
+    margin: 0 22px;
+    font-size: 18px;
+}
+
+.paragraph {
+    text-indent: 50px;
+    margin-bottom: 10px;
+}
+
+.pagebreak {
+    page-break-before: always;
+    margin: 30px;
 }
