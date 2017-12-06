@@ -1,4 +1,4 @@
-![See `example.pdf` (in root dir) to see what the output is like!](/blob/master/example.pdf)
+![See `example.pdf` (in root dir) to see what the output is like!](/example.pdf)
 
 MathJax must be cloned into the `js` directory. Update your html file to point to the right version.
 
